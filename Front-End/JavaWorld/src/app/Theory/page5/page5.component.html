@@ -1,0 +1,157 @@
+<div class="main-div">
+    <div class="content">
+        <h3 class="content-heading">JAVA Tutorial</h3>
+        <div class="content-list">
+            <p><a routerLink="/page1">Introduction to JAVA</a></p>
+            <p><a routerLink="/page2">Environment Setup</a></p>
+            <p><a routerLink="/page3">First Program</a></p>
+            <p><a routerLink="/page4">DataTypes, Variables</a></p>
+
+            <p><a routerLink="/page5" class="active">Type conversion</a></p>
+
+            <p><a routerLink="/page6">Classes & Objects</a></p>
+            <p><a routerLink="/page7">Static Keyword</a></p>
+            <p><a routerLink="/page8">Wrapper classes</a></p>
+            <p><a routerLink="/page9">Command Line Arguments</a></p>
+            <p><a routerLink="/page10">Use of Import</a></p>
+            <p><a routerLink="/page11">Constructor</a></p>
+            <p><a routerLink="/page12">Inheritance</a></p>
+            <p><a routerLink="/page13"></a></p>
+            <p><a routerLink="/page14"></a></p>
+            <p><a routerLink="/page15"></a></p>
+            <p><a routerLink="/page16"></a></p>
+            <p><a routerLink="/page17"></a></p>
+            <p><a routerLink="/page18"></a></p>
+            <p><a routerLink="/page19"></a></p>
+            <p><a routerLink="/page20"></a></p>
+            <p><a routerLink="/page21"></a></p>
+            <p><a routerLink="/page22"></a></p>
+            <p><a routerLink="/page23"></a></p>
+            <p><a routerLink="/page24"></a></p>
+            <p><a routerLink="/page25"></a></p>
+            <p><a routerLink="/page26"></a></p>
+            <p><a routerLink="/page27"></a></p>
+        </div>
+    </div>
+
+    <div class="theory-div">
+        
+        <div class="card">
+            <h1>Type Conversion?</h1>
+            It is a situation when you assign a value of one data type to another.
+            Both the data types might be compatible or might not be, with each other.
+            If  they are compatible the Java performs automatically conversion called as Auto Casting or Widening.
+            
+            <br>
+            <br>
+
+            <ul>
+                <li>
+                    <b>Automatic Type Conversion- </b>
+                    Also known as widening, Implicit Conversion. See the figure below of widening. It happens when:
+                    <br>
+                    Both the data types are compatible.
+                    <br>
+                    When we assign value of a smaller size data type to a bigger size data type.
+                </li>
+                <li>
+                    <b>Explicit Conversion- </b>
+                    When we assign value of bigger one to the lesser one data type, then we need to cast it or
+                    explicitly convert it.
+                </li>
+            </ul>
+        </div>
+
+        <div class="widening-img">
+            <img src="assets/page5/widening.png">
+        </div>
+
+        <div class="card">
+            <h1>How to convert?</h1>
+            <p>
+                While evaluating expressions, the intermediate value may exceed the range of operands and
+                hence the expression value will be promoted. Some conditions for type promotion are:
+            </p>
+            <br>
+            <ol>
+                <li>
+                    Java automatically promotes each byte, short, or char operand to int when evaluating an expression.
+                </li>
+                <li>
+                    If one operand is a long, float or double the whole expression is promoted to long,
+                    float or double respectively.
+                </li>
+            </ol>
+
+        </div>
+
+        <div class="table-div">
+            <h3>Examples: </h3>
+            <table>
+
+                <tr>
+                    <th>
+                        Widening
+                    </th>
+                    <th>
+                        Narrowing
+                    </th>
+                </tr>
+
+                <tr>
+                    <td>
+                        int i = 100;
+                        <br>
+                        long l = i;
+                    </td>
+                    <td>
+                        long l = 100;
+                        <br>
+                        int i = (int)l; 
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        int i = 100;
+                        <br>
+                        double d = i;
+                    </td>
+                    <td>
+                        double d = 2.1245;
+                        <br>
+                        int i = (int)d;
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        byte b = 125;
+                        <br>
+                        short s = b;
+                        <br>
+                        int i = s;
+                    </td>
+                    <td>
+                        int i = 100000;
+                        <br>
+                        short s = (short)i;
+                        <br>
+                        byte b = (byte)s;
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+    <div class="page-navigation">
+        <div>
+            <a routerLink="/page4"><button class="previous round">&#8249;&#8249; Previous</button></a>
+        </div>
+        <div>
+            <a routerLink="/page6"><button class="next round">Next &#8250;&#8250;</button></a>
+        </div>
+    </div>
+
+</div>

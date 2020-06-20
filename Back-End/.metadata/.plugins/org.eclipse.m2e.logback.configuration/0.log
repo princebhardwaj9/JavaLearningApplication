@@ -1,0 +1,49 @@
+2020-06-15 12:12:21,406 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, The system cannot find the file specified
+2020-06-15 12:13:36,494 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-06-15 12:16:59,508 [Worker-1: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.java:Java-Egg:0.0.1-SNAPSHOT @ C:\Users\Tej\Downloads\Java Egg\Java-Egg\pom.xml.
+2020-06-15 12:17:08,078 [Worker-11: Launching Executing clean in C__Users_Tej_Downloads_Java Egg_Java-Egg] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Tej\Downloads\Java Egg\Java-Egg
+2020-06-15 12:17:08,078 [Worker-11: Launching Executing clean in C__Users_Tej_Downloads_Java Egg_Java-Egg] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2020-06-15 12:17:20,546 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Java-Egg/src/main/java
+2020-06-15 12:17:20,547 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Java-Egg/src/main/resources
+2020-06-15 12:17:20,629 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Java-Egg/src/main/resources
+2020-06-15 12:17:20,663 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Java-Egg/src/test/java
+2020-06-15 12:17:39,516 [Worker-1: Importing Maven projects] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 12:17:39,531 [Worker-1: Importing Maven projects] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-15 12:17:39,564 [Worker-1: Importing Maven projects] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 12:17:39,567 [Worker-1: Importing Maven projects] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 12:17:39,567 [Worker-1: Importing Maven projects] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tej\Downloads\Java Egg\Java-Egg\src\test\resources
+2020-06-15 12:17:45,938 [Worker-1: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 79 sec
+2020-06-15 12:17:47,088 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 12:17:47,097 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-15 12:17:47,098 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 12:17:47,103 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 12:17:47,104 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tej\Downloads\Java Egg\Java-Egg\src\test\resources
+2020-06-15 12:18:00,680 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-06-15 12:19:17,231 [Worker-4: Launching Java-Egg] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Tej\Downloads\Java Egg\Java-Egg
+2020-06-15 12:19:17,231 [Worker-4: Launching Java-Egg] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests clean install
+2020-06-15 12:21:46,678 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 12:21:46,679 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 12:21:46,679 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 12:21:46,684 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 12:21:46,684 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tej\Downloads\Java Egg\Java-Egg\src\test\resources
+2020-06-15 12:22:35,017 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2020-06-15 12:22:35,287 [Worker-6: Launching Java-Egg] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Tej\Downloads\Java Egg\Java-Egg
+2020-06-15 12:22:35,287 [Worker-6: Launching Java-Egg] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests clean install
+2020-06-15 12:23:08,430 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-06-15 12:23:22,133 [Worker-0: Launching Java-Egg (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Tej\Downloads\Java Egg\Java-Egg
+2020-06-15 12:23:22,133 [Worker-0: Launching Java-Egg (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests clean install
+2020-06-15 12:27:08,675 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 12:27:08,723 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-15 12:27:08,736 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 12:27:08,744 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 12:27:08,744 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tej\Downloads\Java Egg\Java-Egg\src\test\resources
+2020-06-15 12:27:30,862 [Worker-14: Launching Executing clean in C__Users_Tej_Downloads_Java Egg_Java-Egg] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Tej\Downloads\Java Egg\Java-Egg
+2020-06-15 12:27:30,863 [Worker-14: Launching Executing clean in C__Users_Tej_Downloads_Java Egg_Java-Egg] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2020-06-15 12:27:40,234 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 12:27:40,234 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-15 12:27:40,255 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-15 12:27:40,255 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-15 12:27:40,255 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tej\Downloads\Java Egg\Java-Egg\src\test\resources
+2020-06-15 12:28:06,083 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-06-15 12:28:20,181 [Worker-5: Launching Java-Egg (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Tej\Downloads\Java Egg\Java-Egg
+2020-06-15 12:28:20,182 [Worker-5: Launching Java-Egg (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests clean install

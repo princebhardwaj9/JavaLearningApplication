@@ -1,0 +1,25 @@
+.table-div{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 150px 0px 0px;
+}
+
+table{
+    border: 1.5px solid black;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1.5px solid black;
+    border-collapse: collapse;
+    padding: 2px 18px;
+    text-align: center;
+}
+
+th{
+    background: cadetblue;
+    color: white;
+    font-weight: 500;
+    font-size: larger;
+}

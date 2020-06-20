@@ -1,0 +1,232 @@
+<div class="main-div">
+    <div class="content">
+        <h3 class="content-heading">JAVA Tutorial</h3>
+        <div class="content-list">
+            <p><a routerLink="/page1">Introduction to JAVA</a></p>
+            <p><a routerLink="/page2">Environment Setup</a></p>
+            <p><a routerLink="/page3">First Program</a></p>
+
+            <p><a routerLink="/page4" class="active">DataTypes, Variables</a></p> 
+
+            <p><a routerLink="/page5">Type conversion</a></p>
+            <p><a routerLink="/page6">Classes & Objects</a></p>
+            <p><a routerLink="/page7">Static Keyword</a></p>
+            <p><a routerLink="/page8">Wrapper classes</a></p>
+            <p><a routerLink="/page9">Command Line Arguments</a></p>
+            <p><a routerLink="/page10">Use of Import</a></p>
+            <p><a routerLink="/page11">Constructor</a></p>
+            <p><a routerLink="/page12">Inheritance</a></p>
+            <p><a routerLink="/page13"></a></p>
+            <p><a routerLink="/page14"></a></p>
+            <p><a routerLink="/page15"></a></p>
+            <p><a routerLink="/page16"></a></p>
+            <p><a routerLink="/page17"></a></p>
+            <p><a routerLink="/page18"></a></p>
+            <p><a routerLink="/page19"></a></p>
+            <p><a routerLink="/page20"></a></p>
+            <p><a routerLink="/page21"></a></p>
+            <p><a routerLink="/page22"></a></p>
+            <p><a routerLink="/page23"></a></p>
+            <p><a routerLink="/page24"></a></p>
+            <p><a routerLink="/page25"></a></p>
+            <p><a routerLink="/page26"></a></p>
+            <p><a routerLink="/page27"></a></p>
+        </div>
+    </div>
+
+    <div class="theory-div">
+        <div class="card">
+            <h1>Their are two types of data types in Java.</h1>
+            <ol>
+                <li>Primitive Data Types</li>
+                <li>Non-Primitive Data Types</li>
+            </ol>
+
+            <br>
+            <br>
+
+            <p>
+                <b>Primitive Data Types: </b>
+                The Java programming languagae is statically-typed which means that all the variables must be declared before
+                they can be used. This involves stating the variable type and name.
+                <p class="example">
+                    <b>Ex.</b>
+                    int age;
+                    <br>
+                    int age = 1;
+                <!-- </p> -->
+            </p>
+            
+            <br>
+            <br>
+
+            <p>
+                <b>Non-Primitive Data Types: </b>
+                They are also called as Refrence Data Types as, they don't store the value unlike primitive data types, they store
+                refrence to that value or object.
+                <p class="example">
+                    <b>Ex.</b>
+                    String, Class, Arrays, Enumeration, Interface.
+                    <br>
+                    Class_Name reference_id = new Class_Name();
+                <!-- </p> -->
+            </p>
+        </div>
+
+        <div class="data-type-img">
+            <img src="assets/page4/DataTypes.jpg">
+            <label>Data Types in Java</label>
+        </div>
+
+        <div class="table-div">
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <th>Contains</th>
+                    <th>Size</th>
+                    <th>Default</th>
+                    <th>Declaration & Initialization</th>
+                </tr>
+
+                <tr>
+                    <td>boolean</td>
+                    <td>false & true</td>
+                    <td>1-bit</td>
+                    <td>false</td>
+                    <td>boolean bool = true;</td>
+                </tr>
+
+                <tr>
+                    <td>char</td>
+                    <td>Unicode character</td>
+                    <td>16 bits</td>
+                    <td>\u0000</td>
+                    <td>char myChar = 'a';</td>
+                </tr>
+
+                <tr>
+                    <td>byte</td>
+                    <td>Signed Integer</td>
+                    <td>8 bits</td>
+                    <td>0</td>
+                    <td>int i = 127;</td>
+                </tr>
+
+                <tr>
+                    <td>short</td>
+                    <td>Signed Integer</td>
+                    <td>16 bits</td>
+                    <td>0</td>
+                    <td>short s = 32767;</td>
+                </tr>
+
+                <tr>
+                    <td>int</td>
+                    <td>Signed Integer</td>
+                    <td>32 bits</td>
+                    <td>0</td>
+                    <td>int i = 200000;</td>
+                </tr>
+
+                <tr>
+                    <td>long</td>
+                    <td>Signed Integer</td>
+                    <td>64 bits</td>
+                    <td>0</td>
+                    <td>long l = 5;</td>
+                </tr>
+
+                <tr>
+                    <td>float</td>
+                    <td>IEEE 754 floating point</td>
+                    <td>32 bits</td>
+                    <td>0.0</td>
+                    <td>float f = 10.2f;</td>
+                </tr>
+
+                <tr>
+                    <td>double</td>
+                    <td>IEEE 754 floating point</td>
+                    <td>64 bits</td>
+                    <td>0.0</td>
+                    <td>double d = 15.5;</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="card">
+            <h1>Variables</h1>
+            <div class="special">
+                "Variables are just a name given to a memory location and that memory location is used to
+                hold the data or values."
+            </div>
+
+            <br>
+            <br>
+
+            <h3>Java defines the following kinds of variables:</h3>
+            <ul>
+                <li>
+                    <b>Instance Variables (Non-Static Fields): </b>
+                    Objects store their individual states in "non-static fields", the fields declared without static
+                    keyword. They are also known as instance variables because their values are unique to
+                    each object OR to each instance of a class.
+                </li>
+                <br>
+                <li>
+                    <b>Class Variables (Static-Fields): </b>
+                    They are the fields/variables declared with static modifier, which tells the compiler that there
+                    is exactly one copy of this variable in existence, regardless of how many times the class has been
+                    instantiated(regardless of how many times the object of that class has been made, in other words).
+                </li>
+                <br>
+                <li>
+                    <b>Local Variables: </b>
+                    Like I tell you that a object store its state in fields, a method(function) will often store its temporary
+                    state in local variables. Local variables are not accessible out from the method block, they are only visible
+                    to the methods in which they are declared.
+                </li>
+                <br>
+                <li>
+                    <b>Arguments: </b>
+                    The important thing to remember is that parameters are always classified as "Variables" not "Fields". You will learn
+                    about later in the tutorial.
+                </li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h1>Naming</h1>
+            <p>
+                Everey programming language has its own set of rules and conventions for kind of names that you're allowed
+                to use. Rules & conventions for naming are as follows:
+            </p>
+            <ul>
+                <li>
+                    Variables name are case-sensitive (int myVar & int myvAr both are different) it must be start with a letter,
+                    $(Dollar), _(Underscore).
+                    <p><b>Valid: </b>myVar, $myVar, _myVar</p>
+                    <p><b>Invalid: </b>8myVar, #myVar</p>
+                </li>
+                <li>
+                    Name you choose of the variable must not be a "KEYWORD or RESERVED WORD".
+                </li>
+                <li>
+                    Use the Camel-Case for naming the variable.
+                    <p><b>Like:</b> yearlyInterest, firstName, getData</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="page-navigation">
+        <div>
+            <a routerLink="/page3"><button class="previous round">&#8249;&#8249; Previous</button></a>
+        </div>
+        <div>
+            <a routerLink="/page5"><button class="next round">Next &#8250;&#8250;</button></a>
+        </div>
+    </div>
+
+</div>
