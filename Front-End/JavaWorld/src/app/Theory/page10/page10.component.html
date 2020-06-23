@@ -34,6 +34,84 @@
         </div>
     </div>
 
+    <div class="theory-div">
+        <div class="card">
+            <ul>
+                <p>
+                    Before starting this tutorial, did you know about packages?
+                </p>
+                <li>
+                    Packages are nothing more than the way we organize files into different
+                    directories according to their functionality, usability as well as category they
+                    should belong to.
+                </li>
+                <li>
+                    Packages are the collection of similar types of classes & interface.
+                </li>
+                <li>
+                    No, class can exist without any package in Java. If you have not given any package
+                    making command in .java file then compiler will create one default package in the same folder
+                    and put .class file into that folder, that default package doesnot have any name.
+                </li>
+                <li>
+                    <b>Example: </b>files in java.io package do something related to I/O but files in java.net
+                    give us the way to deal with Network.
+                </li>
+                <p>
+                    <b>Note: </b>
+                    Package names are written in all lower case to avoid conflict with the names of Classes on Interfaces.
+                </p>
+            </ul>
+        </div>
+
+        <div class="card">
+            <p>
+                To create a class inside a package, you should declare the package name as the first statement of your program.
+            </p>
+            <img src="assets/page10/package.png">
+        </div>
+
+        <div class="card">
+            <h1>Import</h1>
+            <ul>
+                <li>
+                    So import is the keyword in Java.
+                </li>
+                <li>
+                    It is used to import classes of other packages.
+                </li>
+                <li>
+                    <b>import </b>
+                    keyword is used to import built-in and user-defined packages into your java source
+                    file so that your class can refer to a class that is in another package by directly using its name.
+                </li>
+                <li>
+                    <b>Importing a Package Member</b>
+                    <p>
+                        To import a specific member of the package we need to mention the name of the member like
+                        <i>import java.util.Scanner </i> as if we need Scanner class only from util package we import
+                        only Scanner class.
+                    </p>
+                </li>
+                <li>
+                    <b>Importing Entire Package</b>
+                    <p>
+                        To import all the types contained in a particular package, use the import statement with the
+                        asterisk<b>(*)</b> wild character, like if we want to import all member of util package, we
+                        need to write like <i>import java.util.*;</i>.
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <p>
+                All import statements should be written above the declaration of the class.
+            </p>
+            <img src="assets/page10/import.png">
+        </div>
+    </div>
+
     <div class="page-navigation">
         <div>
             <a routerLink="/page9"><button class="previous round">&#8249;&#8249; Previous</button></a>

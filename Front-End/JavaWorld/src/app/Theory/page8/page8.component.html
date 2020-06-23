@@ -8,7 +8,7 @@
             <p><a routerLink="/page4">DataTypes, Variables</a></p>
             <p><a routerLink="/page5">Type conversion</a></p>
             <p><a routerLink="/page6">Classes & Objects</a></p>
-            <p><a routerLink="/page7">Static Keyword</a></p>
+            <p><a routerLink="/page7">Static Keyword & Block</a></p>
 
             <p><a routerLink="/page8" class="active">Wrapper classes</a></p>
 
@@ -31,6 +31,155 @@
             <p><a routerLink="/page25"></a></p>
             <p><a routerLink="/page26"></a></p>
             <p><a routerLink="/page27"></a></p>
+        </div>
+    </div>
+
+    <div class="theory-div">
+        <div class="card">
+            <h1>Is Java is 100% Object Oriented Programming Language?</h1>
+            <div class="user-answer">
+                <button (click)="yes()" id="yes-button">Yes</button>
+                <button (click)="no()" id="no-button">No</button>
+            </div>
+            
+            <br>
+
+            <div class="yes" id="yes">
+                <p class="tell-answer">
+                    OOPs! You are wrong,
+                    <br>
+                    Java is not 100% Object Oriented Programming Language because of concept of
+                    these primitive data types like int, char, long, short etc.
+                </p>
+                <p>
+                    A Object Oriented Programming Language is what when all the data is present in the form of object but
+                    because of these primitive data types it would not be possible but Java provide a solution for this &
+                    define a concept of wrapper classes.
+                </p>
+            </div>
+
+            <div class="no" id="no">
+                <p class="tell-answer">
+                    Yes! you are right,
+                    <br>
+                    Java is not 100% Object Oriented Programming Language because of concept of
+                    these primitive data types like int, char, long, short etc.
+                </p>
+                <p>
+                    A Object Oriented Programming Language is what when all the data is present in the form of object but
+                    because of these primitive data types it would not be possible but Java provide a solution for this &
+                    define a concept of wrapper classes.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="theory-div after-click" id="after-click">
+        <div class="card">
+            <h1>Wrapper Classes</h1>
+            <ul>
+                <li>
+                    A solution to this problem, Java allows you to includes the primitives in the family
+                    of objects by using wrapper classes.
+                </li>
+                <li>
+                    A Wrapper class is a class whose object wraps or contains a primitive data types.
+                    In other words, we can wrap a primitive value into a wrapper class object.
+                </li>
+                <li>
+                    Advantage of the wrapper class is that it follows the Object Oriented approach
+                    as well as then the manipulation of data is more easy & efficient by use of functions.
+                </li>
+                <li>
+                    There is a wrapper class for every primitive data type in Java.
+                </li>
+                <li>
+                    This class encapsulates the single value of primitive data type.
+                </li>
+                <li>
+                    For instance the wrapper class for int is Integer, for float is Float, 
+                    char is Character, and so on.
+                </li>
+                <li>
+                    As you see we use class naming convention to name the wrapper classes.
+                </li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <table>
+                <tr>
+                    <th>Primitive Data Type</th>
+                    <th>Wrapper Class</th>
+                </tr>
+
+                <tr>
+                    <td>boolean</td>
+                    <td>Boolean</td>
+                </tr>
+                <tr>
+                    <td>byte</td>
+                    <td>Byte</td>
+                </tr>
+                <tr>
+                    <td>char</td>
+                    <td>Character</td>
+                </tr>
+                <tr>
+                    <td>short</td>
+                    <td>Short</td>
+                </tr>
+                <tr>
+                    <td>int</td>
+                    <td>Integer</td>
+                </tr>
+                <tr>
+                    <td>long</td>
+                    <td>Long</td>
+                </tr>
+                <tr>
+                    <td>float</td>
+                    <td>Float</td>
+                </tr>
+                <tr>
+                    <td>double</td>
+                    <td>Double</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="card">
+            <ul>
+                <h1>Useful Functions Of Wrapper Classes</h1>
+                <li>
+                    <ul>
+                        <b>valueOf()</b>
+                        <br>
+                        <li>static method</li>
+                        <li>Return object reference of relative wrapper class</li>
+                        <!-- <li>Ex. Integer.valueOf("Any String");</li>
+                        <li>Ex. String.valueOf(55);</li> -->
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <b>parseXxx()</b>
+                        <br>
+                        <li>static method</li>
+                        <li>Xxx can be replaced by any data type</li>
+                        <li>It return xxx type value</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <b>xxxValue()</b>
+                        <br>
+                        <li>Instance method of wrapper class</li>
+                        <li>xxx can be replaced by any data type</li>
+                        <li>It return xxx type value</li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     </div>
 

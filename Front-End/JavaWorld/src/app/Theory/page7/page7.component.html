@@ -9,7 +9,7 @@
             <p><a routerLink="/page5">Type conversion</a></p>
             <p><a routerLink="/page6">Classes & Objects</a></p>
 
-            <p><a routerLink="/page7" class="active">Static Keyword</a></p>
+            <p><a routerLink="/page7" class="active">Static Keyword & Block</a></p>
             
             <p><a routerLink="/page8">Wrapper classes</a></p>
             <p><a routerLink="/page9">Command Line Arguments</a></p>
@@ -31,6 +31,155 @@
             <p><a routerLink="/page25"></a></p>
             <p><a routerLink="/page26"></a></p>
             <p><a routerLink="/page27"></a></p>
+        </div>
+    </div>
+
+    <div class="theory-div">
+        <div class="card">
+            <h1>Static</h1>
+            <p>
+                It is a special keyword & widely use keyword in Java for memory management. It can be used with
+                variables, methods, blocks and nested classes. Basically, static is used for variable or a method
+                which are same for every object/instance of class.
+            </p>
+
+            <br>
+
+            <p>
+                There are:
+            </p>
+            <ul>
+                <li>Static member variable</li>
+                <li>Static member function</li>
+                <li>Static iner class</li>
+                <li>
+                    But we don't have static local variable
+                    <br>
+                    <!-- Ex. public void function1(){
+                        static int i = 2; //error
+                    } -->
+                </li>
+            </ul>
+
+        </div>
+
+        <br>
+
+        <div class="card">
+            <h1>Static Variables:</h1>
+            <ul>
+                <li>
+                    Static variables are declared in class using <b>static</b> keyword.
+                </li>
+                <li>
+                    Static variables are by default initialized to its default value.
+                </li>
+                <li>
+                    Static variable has a <b>single copy</b> for the whole class and does not depend
+                    on the objects.
+                </li>
+            </ul>
+        </div>
+
+            <br>
+
+        <div class="card">
+            <h1>Static Function:</h1>
+            <ul>
+                <li>
+                    Static functions defined inside the class are qualified with the keyword <b>static</b>.
+                </li>
+                <li>
+                    Static functions can only <b>access static members</b> of same class.
+                </li>
+                <li>
+                    Static function can be invoked using class name and dot operator.
+                    <br>
+                    <p>Ex. ClassName.function_Name();</p>
+                </li>
+            </ul>
+        </div>
+
+        <br>
+
+        <div class="card">
+            <h1>Initialization Block</h1>
+            <ul>
+                <p>There are two types of initialization blocks:</p>
+                <li>Instance Initialization Block</li>
+                <li>Static Initialization Block</li>
+            </ul>
+        </div>
+
+        <br>
+
+        <div class="card">
+            <h1>Instance Initialization Block:</h1>
+            <ul>
+                <li>
+                    Instance Initialization Block belongs to object.
+                </li>
+                <li>
+                    An Initialization Block declared in the class is executed when an instance of class is created.
+                </li>
+                <li>
+                    <b>return</b> keyword cannot be used in initialization block.
+                </li>
+                <li>
+                    Instance initializers are permitted to refer to the current object via
+                    the keyword <b>this</b> and can use the keyword <b>super</b>.
+                </li>
+                <li>
+                    It is a block with curly braces & without name.
+                </li>
+                <li>
+                    It will be execute when we make object of a class.
+                </li>
+                <li>
+                    If you want to make more than one initiallization block it can be possible.
+                </li>
+                <li class="note">
+                    <b>Note: </b>
+                    Compiler will change all blocks into single block in the same sequence you write the code.
+                    After that, compiler will insert all the code of block in the first line of Constructor.
+                    
+                </li>
+            </ul>
+        </div>
+
+        <br>
+
+        <div class="card">
+            <h1>Static Initialization Block:</h1>
+            <ul>
+                <li>
+                    A static initializer declared in a class is executed when the class is initialized.
+                </li>
+                <li>
+                    Static initializer may be used to initialize the class variable of the class.
+                </li>
+                <li>
+                    <b>return</b> keyword cannot be used in static initialization block.
+                </li>
+                <li>
+                    <b>this</b> or <b>super</b> cannot be used in static block.
+                </li>
+                <li>
+                    Static initialization block is executed once in life-time of the class
+                    regardless how many times you made objects.
+                </li>
+                <li>
+                    As same like in instance initialization block compiler will change all static block code
+                    into single code.
+                </li>
+                <li>
+                    Static initialization block is qualified by the static keyword.
+                </li>
+                <li>
+                    Anything you want to do once in lifecycle of the class put that code in static block
+                    like database connection, GUI etc.
+                </li>
+            </ul>
         </div>
     </div>
 
